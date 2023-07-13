@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import "../common.blocks/mainpage/mainpage.css";
+@import "../common.blocks/header/header.css";
+@import "../common.blocks/content/content.css";
+@import "../common.blocks/secondblock/secondblock.css";
+@import "../common.blocks/footer/footer.css";
+@import "../common.blocks/banner/banner.css";

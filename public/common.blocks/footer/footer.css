@@ -1,0 +1,152 @@
+.footer {
+  padding: 8rem 0 6rem;
+  color: #ffffff80;
+  background-color: #111;
+}
+
+.footer__info {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr;
+}
+
+.footer__info_text {
+  margin: 0 0 2rem;
+  padding-right: 4rem;
+}
+
+.footer__info_header {
+  margin: 0 0 1.5rem;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.footer__secondheader {
+  margin: 0 0 1.5rem;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.footer__link {
+  color: #ffffff80;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: #ce1b28;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer__li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.footer__li-last {
+  border-bottom: 0;
+}
+
+.footer__li-padding {
+  padding-top: 0;
+}
+
+.footer__secondli {
+  margin-bottom: 1rem;
+  padding-left: 0.325rem;
+  border-bottom: 0;
+}
+
+.footer__alt {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+
+}
+
+.footer__plain {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+
+}
+
+.footer_wrapper-plain {
+  padding-left: 4rem;
+}
+
+.footer__icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  color: #fff;
+  font-style: normal;
+  line-height: 2rem;
+  text-align: center;
+  background: #00000080;
+  border-radius: 4px;
+}
+
+.footer__icon::before {
+  font-family: FontAwesome;
+}
+
+.footer_copyright {
+  padding: 2rem 0;
+  font-size: 0.8rem;
+  text-align: center;
+  border-top: 1px solid;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    padding: 4rem 0 2rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .footer__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer__info-grid {
+    grid-column: 1 / -1;
+  }
+
+  .footer__info_text {
+    padding-right: 0;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+  .footer {
+    padding: 3rem 0 1rem;
+  }
+
+  .footer__info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer_wrapper-plain {
+    padding-left: 0;
+  }
+
+  .footer__li-last {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 2rem 0 0.1rem;
+  }
+}
